@@ -1,7 +1,7 @@
 [
   {
     "title": "Spaghetti Carbonara",
-    "image": "../images/Spaghetti-Carbonara.jpg",
+    "image": "https://raw.githubusercontent.com/NisargBhavsar25/recipe-site/main/images/Spaghetti-Carbonara.jpg",
     "ingredients": [
       "1 pound spaghetti",
       "4 large eggs",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Chocolate Chip Cookies",
-    "image": "../images/Chocolate-Chip-Cookies.jpg",
+    "image": "https://raw.githubusercontent.com/NisargBhavsar25/recipe-site/main/images/Chocolate-Chip-Cookies.jpg",
     "ingredients": [
       "2 1/4 cups all-purpose flour",
       "1 teaspoon baking soda",
@@ -52,7 +52,7 @@
   },
   {
     "title": "Chicken Alfredo",
-    "image": "../images/Chicken-Alfredo.jpg",
+    "image": "https://raw.githubusercontent.com/NisargBhavsar25/recipe-site/main/images/Chicken-Alfredo.jpg",
     "ingredients": [
       "1 pound fettuccine pasta",
       "1 cup heavy cream",
@@ -76,7 +76,7 @@
   },
   {
     "title": "Beef Stir Fry",
-    "image": "../images/Beef-Stir-Fry.jpg",
+    "image": "https://raw.githubusercontent.com/NisargBhavsar25/recipe-site/main/images/Beef-Stir-Fry.jpg",
     "ingredients": [
       "1 pound sirloin steak, sliced into thin strips",
       "2 tablespoons vegetable oil",
@@ -105,7 +105,7 @@
   },
   {
     "title": "Grilled Steak with Chimichurri Sauce",
-    "image": "../images/Grilled-Steak-with-Chimichurri-Sauce.jpg",
+    "image": "https://raw.githubusercontent.com/NisargBhavsar25/recipe-site/main/images/Grilled-Steak-with-Chimichurri-Sauce.jpg",
     "ingredients": [
     "2 8-ounce rib-eye steaks",
     "Salt and black pepper to taste",
@@ -129,7 +129,7 @@
     },
     {
     "title": "Pesto Pasta Salad",
-    "image": "../images/Pesto-Pasta-Salad.jpg",
+    "image": "https://raw.githubusercontent.com/NisargBhavsar25/recipe-site/main/images/Pesto-Pasta-Salad.jpg",
     "ingredients": [
     "1 pound fusilli pasta",
     "1 cup basil leaves",
