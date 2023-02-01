@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recipes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Recipes</h1>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search recipes...">
+    </div>
+    <div class="recipe-list">
+        <script>
+            fetch("recipes.json")
+                .then(response => response.json())
+                .then(data => {
+                    const recipeList = document.querySelector(".recipe-list");
+                    data.forEach((recipe, index) => {
+                        const recipeCard = document.createElement("div");
+                        recipeCard.classList.add("recipe-card");
+                        recipeCard.innerHTML = `
+                  <a href="recipe.html?id=${index + 1}">
+                    <div class="recipe-card-image" style="background-image: url(${recipe.image})"></div>
+                    <h3 class="recipe-card-title">${recipe.title}</h3>
+                  </a>
+                `;
+                        recipeList.appendChild(recipeCard);
+                    });
+                    const searchInput = document.querySelector("#search-input");
+                    searchInput.addEventListener("input", () => {
+                        const searchTerm = searchInput.value.toLowerCase();
+                        recipeList.innerHTML = "";
+                        data.forEach((recipe, index) => {
+                            if (recipe.title.toLowerCase().includes(searchTerm)) {
+                                const recipeCard = document.createElement("div");
+                                recipeCard.classList.add("recipe-card");
+                                recipeCard.innerHTML = `
+                  <a href="recipe.html?id=${index + 1}">
+                    <div class="recipe-card-image" style="background-image: url(${recipe.image})"></div>
+                    <h3 class="recipe-card-title">${recipe.title}</h3>
+                  </a>
+                `;
+                                recipeList.appendChild(recipeCard);
+                            }
+                        });
+                    });
+                });
+        </script>
+    </div>
+</body>
+
+</html>

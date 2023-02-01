@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Recipe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="recipe">
+      <h1 class="recipe-title">Recipe</h1>
+      <div class="recipe-image" style="background-image: url(https://via.placeholder.com/500x200)"></div>
+      <div class="recipe-ingredients">
+        <h3>Ingredients</h3>
+        <ul class="ingredients-list"></ul>
+      </div>
+      <div class="recipe-instructions">
+        <h3>Instructions</h3>
+        <ol class="instructions-list"></ol>
+      </div>
+    </div>
+
+    <script>
+      const recipeId = parseInt(location.search.split("=")[1], 10) - 1;
+      const recipeTitle = document.querySelector(".recipe-title");
+      const recipeImage = document.querySelector(".recipe-image");
+      const ingredientsList = document.querySelector(".ingredients-list");
+      const instructionsList = document.querySelector(".instructions-list");
+
+      fetch("recipes.json")
+        .then(response => response.json())
+        .then(data => {
+          const recipe = data[recipeId];
+          recipeTitle.innerHTML = recipe.title;
+          recipeImage.style.backgroundImage = `url(${recipe.image})`;
+          recipe.ingredients.forEach(ingredient => {
+            const ingredientItem = document.createElement("li");
+            ingredientItem.innerHTML = ingredient;
+            ingredientsList.appendChild(ingredientItem);
+          });
+          recipe.instructions.forEach(instruction => {
+            const instructionItem = document.createElement("li");
+            instructionItem.innerHTML = instruction;
+            instructionsList.appendChild(instructionItem);
+          });
+        });
+    </script>
+  </body>
+</html>

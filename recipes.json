@@ -1,0 +1,155 @@
+[
+  {
+    "title": "Spaghetti Carbonara",
+    "image": "../images/Spaghetti-Carbonara.jpg",
+    "ingredients": [
+      "1 pound spaghetti",
+      "4 large eggs",
+      "1 cup grated Pecorino Romano cheese",
+      "1 cup grated Parmesan cheese",
+      "1/2 pound bacon, diced",
+      "3 cloves garlic, minced",
+      "Salt and black pepper to taste"
+    ],
+    "instructions": [
+      "Cook spaghetti according to package instructions.",
+      "Meanwhile, in a large bowl, beat the eggs, Pecorino Romano cheese, and Parmesan cheese.",
+      "In a large skillet, cook the bacon over medium heat until crispy.",
+      "Add the garlic to the skillet and cook until fragrant.",
+      "Drain the spaghetti and add it to the skillet with the bacon and garlic.",
+      "Remove the skillet from the heat and add the egg and cheese mixture to the spaghetti.",
+      "Toss the spaghetti until well combined and the egg mixture is heated through.",
+      "Season with salt and black pepper to taste.",
+      "Serve hot and enjoy!"
+    ]
+  },
+  {
+    "title": "Chocolate Chip Cookies",
+    "image": "../images/Chocolate-Chip-Cookies.jpg",
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 teaspoon baking soda",
+      "1 teaspoon salt",
+      "1 cup unsalted butter, at room temperature",
+      "3/4 cup white sugar",
+      "3/4 cup brown sugar",
+      "2 large eggs",
+      "2 teaspoons vanilla extract",
+      "2 cups semisweet chocolate chips"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "In a medium bowl, whisk together the flour, baking soda, and salt.",
+      "In a large bowl, cream together the butter, white sugar, and brown sugar until smooth.",
+      "Beat in the eggs one at a time, then stir in the vanilla extract.",
+      "Gradually mix in the flour mixture until just combined.",
+      "Stir in the chocolate chips.",
+      "Drop rounded tablespoons of dough onto ungreased baking sheets.",
+      "Bake for 8 to 10 minutes, or until golden.",
+      "Allow to cool on the baking sheets for 5 minutes, then transfer to wire racks to cool completely.",
+      "Enjoy with a glass of cold milk!"
+    ]
+  },
+  {
+    "title": "Chicken Alfredo",
+    "image": "../images/Chicken-Alfredo.jpg",
+    "ingredients": [
+      "1 pound fettuccine pasta",
+      "1 cup heavy cream",
+      "1 stick unsalted butter",
+      "1 cup grated Parmesan cheese",
+      "1/2 teaspoon garlic powder",
+      "1/2 teaspoon dried basil",
+      "Salt and black pepper to taste",
+      "2 boneless, skinless chicken breasts, cooked and diced"
+    ],
+    "instructions": [
+      "Cook fettuccine according to package instructions.",
+      "In a large saucepan, heat the heavy cream and butter over medium heat until the butter is melted.",
+      "Stir in the Parmesan cheese, garlic powder, and dried basil until well combined.",
+      "Add the cooked chicken to the saucepan and stir to combine.",
+      "Drain the pasta and add it to the saucepan with the sauce.",
+      "Toss the pasta until well coated with the sauce.",
+      "Season with salt and black pepper to taste.",
+      "Serve hot and enjoy!"
+    ]
+  },
+  {
+    "title": "Beef Stir Fry",
+    "image": "../images/Beef-Stir-Fry.jpg",
+    "ingredients": [
+      "1 pound sirloin steak, sliced into thin strips",
+      "2 tablespoons vegetable oil",
+      "1 red bell pepper, sliced",
+      "1 yellow onion, sliced",
+      "2 cloves garlic, minced",
+      "1 cup broccoli florets",
+      "1 cup snow peas",
+      "1/4 cup soy sauce",
+      "1 tablespoon cornstarch",
+      "2 tablespoons water",
+      "Salt and black pepper to taste"
+    ],
+    "instructions": [
+      "In a large skillet or wok, heat the vegetable oil over high heat.",
+      "Add the beef to the skillet and cook until browned.",
+      "Remove the beef from the skillet and set aside.",
+      "In the same skillet, add the red bell pepper, yellow onion, garlic, broccoli, and snow peas.",
+      "Stir fry the vegetables for 3-5 minutes or until tender.",
+      "In a small bowl, whisk together the soy sauce, cornstarch, and water.",
+      "Add the beef and the soy sauce mixture to the skillet with the vegetables.",
+      "Stir until well combined and the sauce has thickened.",
+      "Season with salt and black pepper to taste.",
+      "Serve hot and enjoy!"
+    ]
+  },
+  {
+    "title": "Grilled Steak with Chimichurri Sauce",
+    "image": "../images/Grilled-Steak-with-Chimichurri-Sauce.jpg",
+    "ingredients": [
+    "2 8-ounce rib-eye steaks",
+    "Salt and black pepper to taste",
+    "1 cup fresh parsley leaves",
+    "1/2 cup fresh cilantro leaves",
+    "4 cloves garlic, minced",
+    "1/2 teaspoon dried oregano",
+    "1/2 teaspoon red pepper flakes",
+    "1/2 teaspoon ground cumin",
+    "1/4 teaspoon salt",
+    "1/4 cup red wine vinegar",
+    "1/2 cup extra-virgin olive oil"
+    ],
+    "instructions": [
+    "Season steaks with salt and black pepper.",
+    "Grill steaks over high heat until desired doneness is reached.",
+    "Meanwhile, in a food processor, pulse together parsley, cilantro, garlic, oregano, red pepper flakes, cumin, salt, red wine vinegar, and olive oil.",
+    "Serve steaks with chimichurri sauce on the side.",
+    "Enjoy!"
+    ]
+    },
+    {
+    "title": "Pesto Pasta Salad",
+    "image": "../images/Pesto-Pasta-Salad.jpg",
+    "ingredients": [
+    "1 pound fusilli pasta",
+    "1 cup basil leaves",
+    "1/2 cup grated Parmesan cheese",
+    "1/2 cup pine nuts",
+    "4 cloves garlic",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon black pepper",
+    "1/2 cup extra-virgin olive oil",
+    "1 pint cherry tomatoes, halved",
+    "1 cup crumbled feta cheese"
+    ],
+    "instructions": [
+    "Cook pasta according to package instructions.",
+    "Meanwhile, in a food processor, pulse together basil, Parmesan cheese, pine nuts, garlic, salt, pepper, and olive oil.",
+    "Drain pasta and transfer to a large bowl.",
+    "Add cherry tomatoes, feta cheese, and pesto to the pasta.",
+    "Toss to combine.",
+    "Chill in the refrigerator for at least 1 hour.",
+    "Serve cold and enjoy!"
+    ]
+    }
+]
